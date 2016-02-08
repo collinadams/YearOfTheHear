@@ -1,12 +1,20 @@
-var http = require('http');
-var url = require('url');
+var express = require('express');
+var bodyParser = require('body-parser');
+
+var app = express();
 
 var port = 3000;
 
-var ip = '127.0.0.1';
 
-var server = http.createServer( function(req, res){
-  console.log('hello world');
-  console.log('whats up world');
-  console.log('howdy world');
+
+app.use(bodyParser.json());
+
+app.use(bodyParser.urlencoded({ extend: true }));
+
+app.get('/', function(req, res){
+  res.send('hello world');
 });
+
+console.log('Server now listening on port: ' + port);
+
+app.listen(port);
