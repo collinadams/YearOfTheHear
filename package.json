@@ -4,7 +4,8 @@
   "description": "(city-finder)",
   "main": "server.js",
   "engines": {
-    "node": "4.0.0"
+    "node": "4.0.0",
+    "npm": "3.7.1"
   },
   "dependencies": {
     "node": "4.0.0",
