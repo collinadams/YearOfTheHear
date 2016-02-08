@@ -5,7 +5,7 @@
   "main": "city-finder.js",
   "engines": {
     "node": "5.0.0"
-  }
+  },
   "dependencies": {
     "http": "^0.0.0",
     "node": "5.0.0",
