@@ -1,3 +1,4 @@
 node_modules
 *.sqlite
 *.DS_store
+bower_components
