@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/number', function(req, res){
-  request('https://numbersapi.p.mashape.com/{year}/year', function(error, response, data){
+  request('https://numbersapi.p.mashape.com/1492/year', function(error, response, data){
     if(error){
       console.log('error fetching numbersapi');
       return;
