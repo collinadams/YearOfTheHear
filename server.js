@@ -26,8 +26,8 @@ var options = {
 
 app.get('/number', function(req, res){
   request(options, function(error, response, body){
-    console.log('body');
-    res.send('body');
+    console.log('xxxxxxxxxx body');
+    res.send(body);
   })
 });
 
