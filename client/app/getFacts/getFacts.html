@@ -1,0 +1,30 @@
+<div id='container'>
+  <nav class="navigation">
+    <ul>
+      <li>
+        <a href="#/facts">Facts</a>
+      </li>
+      <li>
+        <a class='selected' href="#/getFacts">Get Facts</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="creator">
+    <form name='numberFactsForm' ng-submit="getFacts()" novalidate>
+      <input name='year' type="number"
+        ng-model="year.number"
+        placeholder="Enter a year here" required
+        ng-class="{'error': numberFactsForm.$invalid && numberFactsForm.$dirty}"/>
+
+      <button type="submit" value="getFact" ng-disabled='numberFactsForm.$invalid'>
+        Get your year's fact
+      </button>
+    </form>
+    <div ng-if='numberFactsForm.year.$error.required && numberFactsForm.$dirty' class="message">
+      <h2>Year required</h2>
+    </div>
+    <div ng-show='numberFactsForm.year.$error.number && numberFactsForm.$dirty' class="message">
+      <h2>Not a valid year</h2>
+    </div>
+  </div>
+</div>
