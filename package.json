@@ -9,12 +9,14 @@
   },
   "dependencies": {
     "body-parser": "^1.14.2",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
-    "nodemon": "^1.8.1"
+    "nodemon": "^1.8.1",
+    "request": "^2.69.0"
   },
   "repository": {
     "type": "git",
