@@ -35,9 +35,9 @@ var options = {
 
   request.get(options, function(error, response, body){
     body = JSON.parse(body);
-    console.log(body);
-    console.log(body.number);
-    console.log(typeof body.number);
+    // console.log(body);
+    // console.log(body.number);
+    // console.log(typeof body.number);
     // module.exports = body;
     // res.send(body);
     // res.send('<p>' + body.text + '</p>');
