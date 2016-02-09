@@ -17,7 +17,7 @@
         ng-class="{'error': numberFactsForm.$invalid && numberFactsForm.$dirty}"/>
 
       <button type="submit" value="getFact" ng-disabled='numberFactsForm.$invalid'>
-        Get your year's fact
+        Hear the fact
       </button>
     </form>
     <div ng-if='numberFactsForm.year.$error.required && numberFactsForm.$dirty' class="message">

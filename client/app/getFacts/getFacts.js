@@ -14,7 +14,7 @@ angular.module('numberFacts.getFacts', [])
         $scope.showFact = true;
         console.log('should have just played');
         // responsiveVoice.speak($scope.fact, 'Macedonian Male', {volume: 0.01}, {rate: 0});
-        responsiveVoice.speak($scope.fact, 'US English Female', {volume: 0.01}, {rate: 0});
+        // responsiveVoice.speak($scope.fact, 'US English Female', {volume: 0.01}, {rate: 0});
 
       })
       .catch(function(error){
