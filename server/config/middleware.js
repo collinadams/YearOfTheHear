@@ -13,3 +13,9 @@ module.exports = function(app, express){
 
   // require('../facts/factRoutes.js')(factRouter);
 };
+
+
+// $http({
+//   method: 'GET',
+//   url: 
+// })
