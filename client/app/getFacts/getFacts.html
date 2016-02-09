@@ -10,7 +10,7 @@
     </ul>
   </nav>
   <div class="creator">
-    <form name='numberFactsForm' ng-submit="getFacts()" novalidate>
+    <form name='numberFactsForm' ng-submit="getFact()" novalidate>
       <input name='year' type="number"
         ng-model="year.number"
         placeholder="Enter a year here" required
@@ -25,6 +25,10 @@
     </div>
     <div ng-show='numberFactsForm.year.$error.number && numberFactsForm.$dirty' class="message">
       <h2>Not a valid year</h2>
+    </div>
+
+    <div ng-if="showFact">
+      <h1>Fact: {{fact}} </h1>
     </div>
   </div>
 </div>
