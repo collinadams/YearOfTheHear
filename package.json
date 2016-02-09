@@ -10,13 +10,18 @@
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
-    "request": "^2.69.0"
+    "jquery": "^2.2.0",
+    "request": "^2.69.0",
+    "underscore-node": "^0.1.2"
   },
   "devDependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
+    "jQuery": "^1.7.4",
+    "jquery": "^2.2.0",
     "nodemon": "^1.8.1",
-    "request": "^2.69.0"
+    "request": "^2.69.0",
+    "underscore-node": "^0.1.2"
   },
   "repository": {
     "type": "git",
