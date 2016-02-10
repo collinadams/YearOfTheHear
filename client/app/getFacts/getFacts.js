@@ -13,7 +13,7 @@ angular.module('numberFacts.getFacts', [])
         $scope.fact = resp.data.text;
         $scope.showFact = true;
         console.log('should have just played');
-        // responsiveVoice.speak($scope.fact, 'Macedonian Male', {volume: 0.01}, {rate: 0});
+        responsiveVoice.speak($scope.fact, 'Macedonian Male', {volume: 0.01}, {rate: 0});
         // responsiveVoice.speak($scope.fact, 'US English Female', {volume: 0.01}, {rate: 0});
 
       })
