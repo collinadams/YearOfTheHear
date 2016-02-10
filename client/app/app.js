@@ -5,6 +5,7 @@ angular.module('numberFacts', [
   'ngRoute'
   ])
 .config(function($routeProvider){
+  
   $routeProvider
     .when('/facts', {
       templateUrl: 'app/facts/facts.html',

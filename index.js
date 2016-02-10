@@ -6,7 +6,7 @@ var request = require('request');
 
 var app = require('./server/server.js');
 
-
+// app.get('/', )
 
 var port = process.env.PORT || 3000;
 // console.log(jquery);

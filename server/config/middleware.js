@@ -11,7 +11,7 @@ module.exports = function(app, express){
 
   app.use('/api/facts', function(){});
 
-  // require('../facts/factRoutes.js')(factRouter);
+  require('../facts/factRoutes.js')(factRouter);
 };
 
 
