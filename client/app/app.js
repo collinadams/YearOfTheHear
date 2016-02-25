@@ -16,6 +16,6 @@ angular.module('numberFacts', [
       controller: 'GetFactsController'
     })
     .otherwise({
-      redirectTo: '/facts'
+      redirectTo: '/getFacts'
   });
 });
